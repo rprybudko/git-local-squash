@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@digitalroute/cz-conventional-changelog-for-jira": "7.2.1",
+    "commitizen": "4.2.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira",
+      "jiraOptional": true,
+      "exclamationMark": true,
+      "jiraPrefix": "TASK",
+      "jiraAppend": ",",
+      "skipScope": false
+    }
+  }
+}
