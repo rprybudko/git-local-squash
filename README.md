@@ -6,7 +6,7 @@ Squashing local commits using commitizen (optional). Useful if you need to compr
 ### 1. Commit utility
 
 For commits, the commitizen utility is used. You can find out more about commitizen [here](https://github.com/commitizen/cz-cli).
-If committizen is not set locally in the project then make your repo [commitizen friendly](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly) or set it [globally](https://github.com/commitizen/cz-cli#conventional-commit-messages-as-a-global-utility). If another commit utility is used, please specify it instead of the code listed [here].
+If committizen is not set locally in the project then make your repo [commitizen friendly](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly) or set it [globally](https://github.com/commitizen/cz-cli#conventional-commit-messages-as-a-global-utility). If another commit utility is used, please specify it instead of the code listed [here](https://github.com/rprybudko/git-local-squash/blob/main/cz-squash.sh#L32).
 
 ### 2. Squash git command
 
@@ -19,4 +19,4 @@ Now, before you submit the code for review, you can squash all the commits into 
 
 ## Demo
 
-![demo]()
+![demo](https://github.com/rprybudko/git-local-squash/blob/main/storage/demo.gif)
